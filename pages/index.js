@@ -21,7 +21,7 @@ export default function Home() {
 					<h3>carrer_objectives()</h3>
 					<p>
 						My main objective is to develop workspace experiences where teams
-						can build better products that can enhance people's life. As
+						can build better products that can enhance people&apos;s life. As
 						complete professional, who understands tech and business
 						requirements and can implement solutions in a variety of languages
 						and technologies, I aim to help other people grow in their tech
