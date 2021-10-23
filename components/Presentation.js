@@ -1,19 +1,27 @@
+/* eslint-disable react/prop-types */
 import React from 'react'
+
+const PresentationCard = ({title, children}) => {
+	return (
+		<div className='mt-10'>
+			<h3 className='mb-4'>{title}</h3>
+			{children}
+		</div>
+	)
+}
 
 export function Presentation() {
 	return (
-		<section>
-			<h2>Presentation</h2>
-			<div>
-				<h3>about_david()</h3>
+		<section className='px-20'>
+			<h2 className='text-3xl mt-16'>Presentation</h2>
+			<PresentationCard title='about_david()'>
 				<p>
 					Undergraduate in Computer Science with 4 years of professional
 					experience in nacional and international enterprises on development,
 					architecture, infrastructure and software roadmap.
 				</p>
-			</div>
-			<div>
-				<h3>carrer_objectives()</h3>
+			</PresentationCard>
+			<PresentationCard title='carrer_objectives()'>
 				<p>
 					My main objective is to develop workspace experiences where teams can
 					build better products that can enhance people&apos;s life. As complete
@@ -22,7 +30,7 @@ export function Presentation() {
 					to help other people grow in their tech carrers through free mentoring
 					and consultancy.
 				</p>
-			</div>
+			</PresentationCard>
 		</section>
 	)
 }
