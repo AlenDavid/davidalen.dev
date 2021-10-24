@@ -4,7 +4,7 @@ import React from 'react'
 const PresentationCard = ({title, children}) => {
 	return (
 		<div className='mt-10'>
-			<h3 className='mb-4'>{title}</h3>
+			<h3 className='mb-4 md:text-xl font-bold'>{title}</h3>
 			{children}
 		</div>
 	)
