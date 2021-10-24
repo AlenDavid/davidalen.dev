@@ -3,11 +3,13 @@ import {Experiences, Hero, Presentation, Stack} from '../components/'
 
 export default function Home() {
 	return (
-		<main className='container'>
+		<main>
 			<Hero />
-			<Presentation />
-			<Stack />
-			<Experiences />
+			<div className='container mx-auto'>
+				<Presentation />
+				<Stack />
+				<Experiences />
+			</div>
 		</main>
 	)
 }

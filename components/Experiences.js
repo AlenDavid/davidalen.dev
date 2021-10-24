@@ -2,9 +2,9 @@ import React from 'react'
 
 export function Experiences() {
 	return (
-		<section>
+		<section className='px-20 grid grid-cols-2 gap-16'>
 			<div>
-				<h2>Professional Experience</h2>
+				<h2 className='text-4xl font-bold mt-16'>Profissional Experiences</h2>
 				<div>
 					<div>
 						<h3>Fabric</h3>
@@ -29,7 +29,7 @@ export function Experiences() {
 				</div>
 			</div>
 			<div>
-				<h2>Educational Background</h2>
+				<h2 className='text-4xl font-bold mt-16'>Educational Background</h2>
 				<div>
 					<h3>University Feevale</h3>
 					<p>Computer Science</p>
