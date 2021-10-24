@@ -12,7 +12,7 @@ const PresentationCard = ({title, children}) => {
 
 export function Presentation() {
 	return (
-		<section className='px-20'>
+		<section className='px-4 md:px-20'>
 			<h2 className='text-4xl font-bold mt-16'>Presentation</h2>
 			<PresentationCard title='about_david()'>
 				<p>

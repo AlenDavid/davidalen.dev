@@ -123,7 +123,7 @@ const ProfessionalExperiences = () => {
 
 export function Experiences() {
 	return (
-		<section className='px-20 grid grid-cols-1 lg:grid-cols-2 gap-16'>
+		<section className='px-4 md:px-20 grid grid-cols-1 lg:grid-cols-2 gap-16'>
 			<ProfessionalExperiences />
 			<EducationalExperiences />
 		</section>
