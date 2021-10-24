@@ -3,9 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Fira Code', 'sans-serif';
     font-weight: 700;
