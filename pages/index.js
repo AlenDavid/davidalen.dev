@@ -1,5 +1,5 @@
 import React from 'react'
-import {Experiences, Hero, Presentation, Stack} from '../components/'
+import {Experiences, Hero, Presentation, Stack, Footer} from '../components/'
 
 export default function Home() {
 	return (
@@ -10,6 +10,7 @@ export default function Home() {
 				<Stack />
 				<Experiences />
 			</div>
+			<Footer />
 		</main>
 	)
 }
