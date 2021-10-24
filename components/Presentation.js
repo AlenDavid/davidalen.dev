@@ -13,7 +13,7 @@ const PresentationCard = ({title, children}) => {
 export function Presentation() {
 	return (
 		<section className='px-20'>
-			<h2 className='text-3xl mt-16'>Presentation</h2>
+			<h2 className='text-4xl font-bold mt-16'>Presentation</h2>
 			<PresentationCard title='about_david()'>
 				<p>
 					Undergraduate in Computer Science with 4 years of professional
