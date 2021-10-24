@@ -30,17 +30,29 @@ export function Experiences() {
 			</div>
 			<div>
 				<h2 className='text-4xl font-bold mt-16'>Educational Background</h2>
-				<div>
-					<h3>University Feevale</h3>
-					<p>Computer Science</p>
-					<div>
+				<div className='flex flex-col'>
+					<div className='mb-6'>
+						<h3 className='text-3xl font-bold mt-12'>University Feevale</h3>
+						<h4 className='text-2xl font-bold'>Computer Science</h4>
+						<p className='text-gray-400'>jan 2017 - current</p>
+					</div>
+					<div className='flex flex-col'>
 						<div>
-							<h4>Academic Directory</h4>
-							<p>2021</p>
-							<p>
+							<div className='mb-4'>
+								<h4 className='text-2xl font-bold'>Academic Directory</h4>
+								<p className='font-sans text-gray-400'>2021</p>
+							</div>
+							<p className='mb-4'>
 								Member of Feevale&apos;s Computer Science&apos;s Academic
 								Directory
 							</p>
+						</div>
+						<div>
+							<div className='mb-4'>
+								<h4 className='text-2xl font-bold'>Student Mentor</h4>
+								<p className='font-sans text-gray-400'>2018-2020</p>
+							</div>
+							<p>Calculus mentoring for undergraduate students</p>
 						</div>
 					</div>
 				</div>
